@@ -1,20 +1,20 @@
 // check prime
 
-
+//let num=4;
 let isPrime=true;
-    if(num===1){
+    if(num==1){
         console.log("1 is neither prime nor composite number");
         
     }
     else if(num>1){
-        for(let i=2;i<=num;i++){
+        for(let i=2;i<=num-1;i++){
             if(num%i==0){
                 isPrime=false;
                 break;
             }
         }
     }
-    if(isPrime){
+    if(isPrime==true){
         console.log("Yes")
     }
     else {
